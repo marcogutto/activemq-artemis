@@ -197,3 +197,8 @@ docker run -it -p 61616:61616 -p 8161:8161 -v <broker folder on host>:/var/lib/a
 ```
 where `<broker folder on host>` is a folder where the broker instance is supposed to 
 be saved and reused on each run.
+
+# Push to Docker
+```
+docker push your_user/your_image_tag
+```
